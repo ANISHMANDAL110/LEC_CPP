@@ -8,19 +8,19 @@ public:
     int roll;
     
     void eat(){
-       std::cout << "eating";        
+       std::cout << "eating \n";        
     }
      void sleep(){
-       std::cout << "sleeping";        
+       std::cout << "sleeping\n" ;        
     }
      void read(){
-       std::cout << "reading";        
+       std::cout << "reading\n";        
     }
      void run(){
-       std::cout << "running";        
+       std::cout << "running\n";        
     }
      void study(){
-       std::cout << "studying";        
+       std::cout << "studying\n";        
     }
 
 };
