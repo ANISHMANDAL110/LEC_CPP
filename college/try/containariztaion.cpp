@@ -17,14 +17,15 @@ class B{
     public:
     class A a ;
     int b;
-    //why method can only be called inside another method?
-   // a.get_data();
+
+
     
     
     void get_data(){
-          cin>>b;
+          
         a.get_data();
         cout<<"enter teh value of b";
+        cin>>b;
       
         
     }

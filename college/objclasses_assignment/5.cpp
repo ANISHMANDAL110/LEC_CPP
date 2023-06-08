@@ -1,11 +1,13 @@
 #include <iostream>
+#include <string>
 using namespace std;
+
 class student
 {
-    private:
+    public:
      int roll;
-     char name[20];
-     char phone[10];
+     string name;
+     string phone;
     public:
      void getdata();
      void showdata();
@@ -24,4 +26,4 @@ inline void student :: showdata()
     cout<<"Name: "<<name<<endl;
     cout<<"Roll No: "<<roll<<endl;
     cout<<"Phone No: "<<phone<<endl;
-}
+};
